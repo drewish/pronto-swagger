@@ -7,3 +7,5 @@
 [![Dependency Status](https://gemnasium.com/badges/github.com/drewish/pronto-swagger.svg)](https://gemnasium.com/github.com/drewish/pronto-swagger)
 
 Pronto runner for validating [Swagger Documentation](https://swagger.io). [What is Pronto?](https://github.com/prontolabs/pronto)
+
+This uses the [Swagger Validator Badge](https://github.com/swagger-api/validator-badge) web service to validate the file. This means your file will be sent to a remote server. If you're working with a private document this may not be what you want.
